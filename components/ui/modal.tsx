@@ -36,12 +36,12 @@ export const Modal: React.FC<ModalProps> = ({
         <div>
           {children}
         </div>
-        <DialogFooter>
+        {/* <DialogFooter>
           <Button variant="outline" onClick={onClose}>
             Cancel
           </Button>
           <Button type="submit">Continue</Button>
-        </DialogFooter>
+        </DialogFooter> */}
       </DialogContent>
     </Dialog>
   );

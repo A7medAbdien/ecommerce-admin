@@ -18,3 +18,22 @@
 1. UI component: with shadcn - Form and Input
 2. define formSchema
 3. useForm from react-hook-form
+4. onSubmit
+
+# prisma
+
+1. npm i -D prisma
+2. npm i @prisma/client
+3. npx prisma init
+4. add key to .env
+5. create model in shcema.prisma
+6. npx prisma generate
+7. npx prisma db push
+
+# api
+
+1. api/stores/route.ts - post function
+2. store-model - loading state
+3. npm i axios - used based on post file location
+4. npm i react-hot-toast - create a ToastProvider
+
