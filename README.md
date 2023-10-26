@@ -54,4 +54,7 @@
 * npx shadcn-ui@latest add popover
 * npx shadcn-ui@latest add command
 * npx shadcn-ui@latest add separator
+* npx shadcn-ui@latest add alert
+* npx shadcn-ui@latest add badge
+
 
