@@ -53,3 +53,5 @@
 
 * npx shadcn-ui@latest add popover
 * npx shadcn-ui@latest add command
+* npx shadcn-ui@latest add separator
+
