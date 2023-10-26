@@ -32,22 +32,16 @@ export const StoreModal = () => {
   const onSubmit = async (values: z.infer<typeof formSchema>) => {
     try {
       setLoading(true);
-
-      // throw new Error("x");
-
       const response = await axios.post('/api/stores', values);
-      toast.success('Store created!');
-
-      console.log(response.data);
+      window.location.assign(`/${response.data.id}`);
 
     } catch (error) {
       console.log('STORE_MODAL_SUBMIT', error);
       toast.error('Something went wrong!');
+
     } finally {
       setLoading(false);
     }
-    // console.log(values);
-    // storeModal.onClose();
   }
 
   return (
@@ -85,10 +79,6 @@ export const StoreModal = () => {
               </div>
             </form>
           </Form>
-          {/* <div className="space-y-2">
-            <Label htmlFor="name">Store name</Label>
-            <Input id="name" placeholder="E-Commerce" />
-          </div> */}
         </div>
       </div>
     </Modal>

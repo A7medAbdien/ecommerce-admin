@@ -37,3 +37,12 @@
 3. npm i axios - used based on post file location
 4. npm i react-hot-toast - create a ToastProvider
 
+# Auth users must have a store
+1. check if user has any stores else go to sign-in
+2. redirect with the first store found id
+
+# Reset Prisma
+
+1. `npx prisma migrate reset`
+2. `npx prisma generate`
+3. `npx prisma db push`
