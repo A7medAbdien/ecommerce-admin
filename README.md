@@ -46,3 +46,10 @@
 1. `npx prisma migrate reset`
 2. `npx prisma generate`
 3. `npx prisma db push`
+
+# all installs
+
+## shadcn
+
+* npx shadcn-ui@latest add popover
+* npx shadcn-ui@latest add command
