@@ -10,7 +10,7 @@
 1. UI component: with shadcn, model.tsx and uses Dialog component and add it to ui folderS
 2. Hooks: with zustand / not useContext,  use-store-model.tsx
 3. Provider: with useEffect and useState - to insure the synchronization bw server and client
-4. add provider to layout.tsx
+4. add  ModalProvider to layout.tsx - to make all modal globally accessible
 5. use hook in children
 
 ## Store Model Form

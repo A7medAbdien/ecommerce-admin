@@ -35,7 +35,7 @@ export const StoreModal = () => {
 
       // throw new Error("x");
 
-      const response = await axios.post('/api/store', values);
+      const response = await axios.post('/api/stores', values);
       toast.success('Store created!');
 
       console.log(response.data);
@@ -46,7 +46,7 @@ export const StoreModal = () => {
     } finally {
       setLoading(false);
     }
-    console.log(values);
+    // console.log(values);
     // storeModal.onClose();
   }
 
